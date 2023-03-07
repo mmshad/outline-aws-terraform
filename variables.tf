@@ -29,7 +29,7 @@ variable "security_group_name_prefix" {
 }
 
 variable "instance_ami" {
-  default = "ami-0852ea6764245fa47" # change it to default Ubuntu AMI
+  default = "ami-0557a15b87f6559cf" # change it to default Ubuntu AMI
 }
 
 variable "instance_type" {
