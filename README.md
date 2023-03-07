@@ -19,7 +19,7 @@ AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 ```
 
-or add them as Enviromental Variables (less secure) or use [Vault by HashiCorp](https://www.vaultproject.io/).
+or add them as Environmental Variables (less secure) or use [Vault by HashiCorp](https://www.vaultproject.io/).
 Then format, validate, plan, and apply your Terraform,
 
 ```bash
