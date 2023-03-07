@@ -23,7 +23,7 @@ or add them as Environmental Variables (less secure) or use [Vault by HashiCorp]
 Then format, validate, plan, and apply your Terraform,
 
 ```bash
-terraform fmt
+terraform init
 terrafrom validate
 terraform plan  # dry run before applying
 terraform apply
