@@ -81,7 +81,7 @@ module "security_group" {
 }
 
 resource "aws_instance" "outline_server" {
-  count         = 1
+  count         = var.count
   ami           = var.instance_ami
   instance_type = var.instance_type
   key_name      = aws_key_pair.outline_key_pair.key_name

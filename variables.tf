@@ -3,6 +3,12 @@ variable "region" {
   default = "us-east-1"
 }
 
+variable "count" {
+  type    = number
+  description = "number of EC2 instances for multiple VPN servers"
+  default = 1
+}
+
 variable "profile" {
   type    = string
   default = "outline_profile"
