@@ -3,7 +3,7 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "count" {
+variable "ec2_count" {
   type    = number
   description = "number of EC2 instances for multiple VPN servers"
   default = 1

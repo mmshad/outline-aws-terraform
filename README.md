@@ -33,7 +33,7 @@ At the end of Terraform script results, look for a line with green color and `{"
 
 **Custom AMI with Docker**: The AMI in the `variables.tf` file is a default one. You can build an AMI with Docker installed to save on the Docker installation process by Outline.
 
-**Multiple Servers**: For multiple VPN servers, just chance `count` number in `variables.tf` file. The default value is 1. If you increase count for multiple VPN servers, look for each `{"apiUrl":"https:/` line in the Terraform output. You also need to check your AWS EC2 service quotas for permisson on multiple EC2 instances (check this [page](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html)).
+**Multiple Servers**: For multiple VPN servers, just chance `ec2_count` number in `variables.tf` file. The default value is 1. If you increase count for multiple VPN servers, look for each `{"apiUrl":"https:/` line in the Terraform output. You also need to check your AWS EC2 service quotas for permisson on multiple EC2 instances (check this [page](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html)).
 
 If you need to destroy and create a new VPN, just destroy each with 
 
