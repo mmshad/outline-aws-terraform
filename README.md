@@ -31,7 +31,7 @@ terraform apply
 
 At the end of Terraform script results, look for a line with green color and `{"apiUrl":"https:/`. Copy this green line (including brackets ) to Outline Manager for AWS.
 
-**Note**: The AMI in the `variables.tf` file is a custom built AMI with Docker installed to save on the Docker installation process by Outline. 
+**Note**: The AMI in the `variables.tf` file is a default one. You can build an AMI with Docker installed to save on the Docker installation process by Outline.
 
 
 If you need to destroy and create a new VPN, just destroy each with 
